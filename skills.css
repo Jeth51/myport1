@@ -1,0 +1,49 @@
+#skills{
+    width: 100%;
+    display: flex;
+}
+.my-skills{
+    background-color: #E84545;
+    width: 100%;
+}
+
+.skills-list{
+    width: 100%;
+    max-width: 100%;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: dashed #53354A 5px;
+    margin: 10px 0;
+}
+.pic-skill{
+    width: 100%;
+    max-width: 600px;
+}
+.skill-information{
+    width: 60rem;
+    padding-left: 50px;
+    max-width: 100%;
+}
+.skill-name{
+    color: #2B2E4A;
+    font-weight: 800;
+    font-size: 3.5rem;
+    max-width: 100%;
+    display: inline-grid;
+}
+.skill-description{
+    font-size: 2rem;
+}
+
+@media (max-width: 445px){
+    .skill-name{
+        font-size: 2.5rem;
+    }
+    .skill-description{
+        font-size: 1rem;
+    }
+    
+}
